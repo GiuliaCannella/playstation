@@ -1,0 +1,94 @@
+.navbar-nav .nav-item a:hover {
+  color: blue;
+}
+
+.my-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 8em;
+}
+
+.bg-jumbo {
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-border-danger,
+.btn-border-dark,
+.btn-border-primary {
+  border: 1px solid transparent;
+  padding: 0.2em;
+}
+
+.btn-border-danger:hover {
+  border: 1px solid red;
+}
+
+.btn-border-dark:hover {
+  border: 1px solid black;
+}
+
+.jumbo .jumbo-content {
+  padding-top: 60%;
+  margin-left: 2em;
+}
+
+.card-img.active,
+.card-img:hover {
+  border: 1px solid blue;
+  padding: 0.3em;
+  border-radius: 10px;
+}
+
+.card-img:hover {
+  cursor: pointer;
+  transform: translateY(-10%);
+  transition: 0.5s;
+}
+
+.btn-border-primary:hover {
+  border: 1px solid blue;
+}
+
+.card-ps5.active {
+    border-bottom: 2px solid blue;
+    opacity: 1;
+    
+}
+
+.card-ps5 {
+  width: calc(100% / 5);
+  padding: 1em;
+  opacity:0.5;
+  border-bottom: 2px solid transparent;
+}
+
+.card-ps5:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+
+.bg-takes {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+  .jumbo .jumbo-content {
+    padding-top: 30%;
+    margin-left: 2em;
+  }
+
+  .card-ps5 {
+    width: calc(100% / 3);
+  }
+}
